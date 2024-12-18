@@ -10,6 +10,7 @@ import "./App.css";
 const RECORDS_PER_PAGE = 5;
 
 /**
+
  * The main App component which fetches Kickstarter project data,
  * displays them in a paginated table, and includes pagination controls.
  *
