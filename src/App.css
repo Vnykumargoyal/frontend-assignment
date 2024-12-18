@@ -1,0 +1,100 @@
+/* 
+  Global Styles 
+  - Sets default font, removes default margin, and applies a subtle background color.
+*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* 
+  Container Styles 
+  - Centers content, adds padding, background, border-radius, and a subtle shadow 
+    to create a card-like appearance.
+*/
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*
+  Heading Styles
+  - Centers the main heading and applies a neutral color.
+*/
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 
+  Table Styles 
+  - Makes table take full width of container
+  - Removes default spacing between table cells
+  - Uses borders and alternating row colors to enhance readability.
+*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 
+  Table Header & Cell Styles
+  - Adds a border around cells, padding for comfortable reading, 
+    and centers text for a clean layout.
+*/
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 
+  Header Row Styles
+  - Distinguishes header row with a green background and white text.
+*/
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* 
+  Even Row Styles
+  - Gives even rows a subtle grey background for easier scanning of data.
+*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*
+  Pagination Container
+  - Uses flex layout to space out pagination controls (Previous and Next buttons).
+*/
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/*
+  Button Styles
+  - Provides padding, sets a pointer cursor, and adjusts disabled state appearance.
+*/
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* 
+  Disabled Button Styles
+  - Greys out disabled buttons and changes the cursor to indicate they are not clickable.
+*/
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+/* 
+  Global Body Styles 
+  - Removes default margin to allow full-viewport layouts.
+  - Sets a system-based stack of fonts for improved cross-platform rendering.
+  - Enables font smoothing for sharper text on different platforms.
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+  Code Element Styles 
+  - Applies a monospaced font stack for a cleaner code-like appearance.
+*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
